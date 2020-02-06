@@ -1,0 +1,191 @@
+@import url(./_partials/_global.css);
+@import url(./_partials/_fonts.css);
+@import url(./_partials/_variables.css);
+
+.header_area {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    transition: background 0.4s, all 0.3s linear;
+}
+
+.header_area .navbar .navbar-brand {
+    padding: 0 2rem 0 0;
+}
+
+.header_area .navbar .navbar-nav {
+    padding: 0 0 0 20rem;
+}
+
+.header_area .navbar .navbar-nav .nav-item {
+    margin-right: 1.5rem;
+}
+
+.header_area .navbar .nav-link {
+    color: #fff;
+    font-size: 14px;
+    line-height: 100px;
+    transition: .5s ease;
+    text-transform: uppercase;
+}
+
+.header_area .navbar .nav-item:hover .nav-link {
+    color: #f3eaea;
+}
+
+.home_banner_area {
+    position: relative;
+    z-index: 1;
+    background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    margin-bottom: 200px;
+}
+
+.home_banner_area .container {
+    min-height: 700px;
+    border-radius: 12px;
+    position: relative;
+    bottom: -200px;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
+}
+
+.home_banner_area .banner_inner {
+    position: relative;
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+}
+
+.home_banner_area .banner_inner .banner_content {
+    color: #222222;
+    vertical-align: middle;
+    align-self: center;
+    text-align: left;
+}
+
+.home_banner_area .banner_inner .banner_content .media .d-flex {
+    padding-right: 125px;
+}
+
+.home_banner_area .banner_inner .banner_content .media .d-flex img {
+    border-radius: 10px;
+}
+
+.home_banner_area .banner_inner .banner_content .media .media-body {
+    vertical-align: middle;
+    align-self: center;
+}
+
+.home_banner_area .banner_inner .banner_content .media .media-body .list.basic_info li {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.home_banner_area .banner_inner .banner_content .media .media-body .basic_info li a {
+    color: var(--pfont);
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.home_banner_area .banner_inner .banner_content .media .media-body .basic_info li a i {
+    color: #766dff;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    /* margin: 0 10px 0 0; */
+    transform: translateY(-12px);
+}
+
+.home_banner_area .banner_inner .banner_content .media .personal_text h6 {
+    font: normal 400 14px/24px var(--roboto);
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+}
+
+.home_banner_area .banner_inner .banner_content .media .personal_text h3 {
+    font: normal 600 42px/52px var(--roboto);
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.home_banner_area .banner_inner .banner_content .media .personal_text p {
+    margin-bottom: 30px;
+    color: #777777;
+}
+
+.home_banner_area .banner_inner .banner_content .media .personal_text h4 {
+    font: normal 500 16px/26px var(--roboto);
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.home_banner_area .banner_inner .banner_content .media .media-body .personal_social li {
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.home_banner_area .banner_inner .banner_content .media .media-body .personal_social li a {
+    background: #E8E8E8;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    transition: .5s ease;
+}
+
+.home_banner_area .banner_inner .banner_content .media .media-body .personal_social li:hover a {
+    background: var(--gradient-color);
+    color: #fff;
+}
+
+/* About area */
+.welcome_area {
+    padding: 120px 0;
+}
+
+.welcome_text h4 {
+    font: normal 600 36px/46px var(--roboto);
+    text-transform: uppercase;
+    margin: 0 0 1rem 0;
+}
+
+.welcome_text p {
+    color: #777777;
+    margin: 0 40px 40px 0;
+}
+
+.welcome_item {
+    border: 1px solid #eeeeee;
+    padding: 20px;
+}
+
+.welcome_item i {
+    font-size: 24px;
+    background: linear-gradient(to right, #766dff 0%, #86e7ff 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.welcome_item .count_area,
+.welcome_item .count_area span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222222;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.welcome_item p {
+    margin: 0;
+}
