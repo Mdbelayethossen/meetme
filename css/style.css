@@ -189,3 +189,114 @@
 .welcome_item p {
     margin: 0;
 }
+
+/* Education area */
+.education_area {
+    background-image: -moz-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(118, 109, 255) 0%, rgb(136, 243, 255) 100%);
+    padding: 8rem 0;
+}
+
+.edu_inner .nav.nav-tabs {
+    display: block;
+    text-align: center;
+    border: none;
+    margin-bottom: 120px;
+}
+
+.edu_inner .nav.nav-tabs li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.edu_inner .nav.nav-tabs li a {
+    margin: 0px;
+    line-height: 50px;
+    border-radius: 5px;
+    padding: 0px 40px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    border: 1px solid #9ab5f5;
+    background: rgba(255, 255, 255, .1);
+}
+
+.edu_inner .nav.nav-tabs li a.active {
+    background: #fff;
+    color: #222222;
+}
+
+.edu_inner .tab-content .tab-pane .list {
+    max-width: 460px;
+    margin: auto;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.edu_inner .tab-content .tab-pane .list:before {
+    content: "";
+    height: 100%;
+    width: 5px;
+    background: rgba(255, 255, 255, .20);
+    position: absolute;
+    left: 45%;
+    transform: translateX(-50%);
+    top: -15px;
+}
+
+.edu_inner .tab-content .tab-pane .list li {
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.edu_inner .tab-content .tab-pane .list li span {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: block;
+    background: rgba(255, 255, 255, .2);
+    position: absolute;
+    left: 45%;
+    top: 30px;
+    transform: translateX(-50%);
+}
+
+.edu_inner .tab-content .tab-pane .list li span:before {
+    content: '';
+    height: 7px;
+    width: 7px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 52%;
+    top: 4px;
+    transform: translateX(-50%);
+}
+
+.edu_inner .tab-content .tab-pane .list li span:last-child {
+    margin-bottom: 0px;
+}
+
+.edu_inner .tab-content .tab-pane .list li .media .d-flex {
+    padding-right: 100px;
+}
+
+.edu_inner .tab-content .tab-pane .list li .media .d-flex p {
+    color: rgba(255, 255, 255, .75);
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+
+.edu_inner .tab-content .tab-pane .list li h4 {
+    color: #fff;
+    font-size: 21px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.edu_inner .tab-content .tab-pane .list li p {
+    color: rgba(255, 255, 255, .75);
+    margin-bottom: 0px;
+}
