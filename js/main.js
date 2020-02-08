@@ -69,6 +69,29 @@ $(document).ready(function () {
 
 
 	})(jQuery);
+	/*---------gallery isotope js-----------*/
+	let $btns = $('.project_gallery .button-group button');
+
+
+    $btns.click(function (e) {
+
+        $('.project_gallery .button-group button').removeClass('active');
+        e.target.classList.add('active');
+
+        let selector = $(e.target).attr('data-filter');
+        $('.project_gallery .gallery_inner').isotope({
+            filter: selector
+        });
+
+        return false;
+    })
+
+    $('.project_gallery .button-group #btn1').trigger('click');
+
+    $('.project_gallery .gallery_inner .light').magnificPopup({
+        type: 'image',
+        gallery: { enabled: true }
+    });
 
 
 

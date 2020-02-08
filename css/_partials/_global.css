@@ -11,3 +11,31 @@ section {
 .list {
     list-style: none;
 }
+.main_title{
+    text-align: center;
+    max-width: 600px;
+    margin: 0px auto 75px;
+}
+.main_btn{
+	display: inline-block;
+	background-image: linear-gradient(to right, #766dff 0%, #86e8ff 48%, #766dff 100%);
+    background-size: 200% auto;
+	padding: 0px 40px;
+	color: #fff;
+	font-family: var(--roboto);
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 48px;
+	border-radius: 0px;
+	outline: none !important;
+	box-shadow: none !important;
+    text-align: center;
+    text-decoration: none !important;
+	cursor: pointer;
+	border-radius: 5px;
+    transition : all .3s linear;
+} 
+.main_btn:hover{
+	background-position: right center;
+    color: #fff;
+}
