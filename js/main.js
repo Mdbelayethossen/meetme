@@ -91,8 +91,28 @@ $(document).ready(function () {
     $('.project_gallery .gallery_inner .light').magnificPopup({
         type: 'image',
         gallery: { enabled: true }
-    });
-
+	});
+	
+	//Owl init
+	$(' .testimonial_area .owl-carousel').owlCarousel({
+        loop: true,
+        autoplay: false,
+        dots: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            320: {
+                items: 1
+            },
+            560: {
+                items: 2
+            },
+            1200: {
+                items: 3
+            }
+        }
+    })
 
 
 })

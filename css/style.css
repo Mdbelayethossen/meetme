@@ -375,6 +375,9 @@
     font: normal 500 12px/22px var(--roboto);
     margin-right: 30px;
 }
+.project_gallery .button-group button:focus{
+    outline: none;
+}
 .project_gallery .button-group button.active,
 .project_gallery .button-group button:hover
 {
@@ -415,4 +418,28 @@
     width: 100%;
     text-align: center;
     opacity: 0;
+}
+/* Testimonial area */
+.testimonial_area{
+    background: #F9F9FF;
+}
+.testimonial_area .item{
+    margin-right: 1rem;
+}
+.testimonial_area .item .t_item{
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    background: #fff;
+    padding: 40px 28px;
+}
+.testimonial_area .item .t_item h4{
+    font: normal 500 18px/28px var(--roboto);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.testimonial_area .item .icons i{
+    color: #ffc000;
+}
+footer {
+    background: #000000;
 }
