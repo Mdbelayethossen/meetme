@@ -96,7 +96,7 @@ $(document).ready(function () {
 	//Owl init
 	$(' .testimonial_area .owl-carousel').owlCarousel({
         loop: true,
-        autoplay: false,
+        autoplay: true,
         dots: false,
         responsive: {
             0: {
