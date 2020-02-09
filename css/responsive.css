@@ -131,39 +131,10 @@
 	.header_area .navbar .navbar-nav .nav-item {
 		margin-right: 0px;
 	}
-	/* End Main Menu Area css
-	============================================================================================ */
-	/* Blog page Area css
-	============================================================================================ */
-	.categories_post img{
-        width: 100%;
-    }
-	.categories_post {
-		max-width: 360px;
-		margin: 0 auto;
+	.header_area.navbar_fixed .main_menu {
+		display: none;
 	}
-	.blog_categorie_area .col-lg-4{
-        margin-top: 30px;
-    }
-    .blog_area{
-        padding-bottom: 80px;
-    }
-    .single-post-area .blog_right_sidebar{
-        margin-top: 30px;
-    }
-	/* End Blog page Area css
-	============================================================================================ */
-	
-	/* Contact Page Area css
-	============================================================================================ */
-	.contact_info{
-		margin-bottom: 50px;
-	}
-	.c_details_list{
-		margin-top: 30px;
-	}
-	/* End Contact page Area css
-	============================================================================================ */
+	/* End Main Menu Area css*/
 	.home_banner_area .donation_inner{
 		margin-bottom: -30px;
 	}
@@ -171,8 +142,7 @@
 		max-width: 350px;
 		margin: auto;
 	}
-	/* Footer Area css
-	============================================================================================ */
+	/* Footer Area css */
 	.footer-area .col-sm-6{
 		margin-bottom: 30px;
 	}
@@ -196,4 +166,5 @@
 	.profile_inner .personal_text {
 		padding-top: 30px;
 	}
+
 }

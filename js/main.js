@@ -63,15 +63,12 @@ $(document).ready(function () {
 		});
 
 
-
-
-
-
-
 	})(jQuery);
+
+	//Sticy Nav init
 	(function($){
 		"use strict"
-		var nav_offset_top = $('.header_area').height()+50; 
+		var nav_offset_top = $('.header_area').height()+100; 
 		/*-------------------------------------------------------------------------------
 		  Navbar 
 		-------------------------------------------------------------------------------*/
