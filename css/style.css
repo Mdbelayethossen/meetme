@@ -34,6 +34,28 @@
 .header_area .navbar .nav-item:hover .nav-link {
     color: #f3eaea;
 }
+.header_area .navbar .nav-item .nav-link:after {
+    display: none; 
+}
+
+.header_area.navbar_fixed .main_menu {
+    position: fixed;
+    width: 100%;
+    top: -70px;
+    left: 0;
+    right: 0;
+    background: #000 !important;
+    transform: translateY(70px);
+    transition: transform 500ms ease, background 500ms ease;
+    -webkit-transition: transform 500ms ease, background 500ms ease;
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+}
+.header_area.navbar_fixed .main_menu .navbar{
+    height: 100px;
+}
+.header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
+    line-height: inherit; 
+}
 
 .home_banner_area {
     position: relative;
@@ -442,4 +464,87 @@
 }
 footer {
     background: #000000;
+}
+footer .f_title{
+    margin-bottom: 30px;
+}
+footer .f_title h3{
+    font: normal 600 18px/18px var(--roboto);
+    color: #e1e1e1;
+}
+footer p{
+    font: normal 500 14px/24px var(--roboto);
+    color: #777777;
+    margin-bottom: 30px;
+}
+footer p.copy{
+    margin: 0;
+}
+footer p.sub{
+    margin-bottom: 15px;
+}
+.news_widget{
+    padding-right: 15px;
+}
+.news_widget p{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: var(--roboto);
+	color: #e1e1e1;
+	margin-bottom: 15px;
+}
+.news_widget .mailchimp i.fas,
+.news_widget .mailchimp .subscription-success,
+.news_widget .mailchimp .subscription-error
+{
+    color: #e1e1e1;
+}
+.news_widget .input-group input{
+	height: 40px;
+	background: transparent;
+	border-radius: 0px;
+	width: 80%;
+	border: none;
+	padding: 0px 15px;
+	border: 1px solid #1e233b;
+	font-size: 14px;
+	color: #cccccc;
+	outline: none;
+    box-shadow: none;
+}
+.news_widget .input-group input::placeholder,
+.news_widget .input-group input::-webkit-input-placeholder,
+.news_widget .input-group input::-ms-input-placeholder
+{
+	font-size: 14px;
+	font-weight: normal;
+	color: #cccccc;
+}
+.news_widget .input-group .sub-btn{
+	border-radius: 0px;
+	background-image: -moz-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
+	background-image: -webkit-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
+	background-image: -ms-linear-gradient( 0deg, rgb(118,109,255) 0%, rgb(136,243,255) 100%);
+	outline: none !important;
+	box-shadow: none !important;
+	padding: 0px;
+	border: none;
+	width: 42px;
+	cursor: pointer;
+	color: #fff;
+}
+footer .list li{
+    margin-right: 17px;
+    display: inline-block;
+}
+footer .list li a{
+    color: #cccccc;
+    font-size: 14px;
+    transition: all .3s linear;
+}
+footer .list li a:last-child{
+    margin-right: 0px;
+}
+footer .list li a:hover{
+    color: var(--baseColor);
 }
